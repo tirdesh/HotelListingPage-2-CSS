@@ -309,3 +309,24 @@ section h1, .stars{
     display: inline-block;
     vertical-align: middle;
 }
+
+/*Location section*/
+
+.location{
+    vertical-align: middle;
+}
+
+
+.location button{
+    padding: 5px;
+    border-radius: 10%;
+    float: right;
+    margin-bottom: 10px;
+}
+#map-frame{
+    border-radius: 2%;
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
