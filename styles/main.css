@@ -167,7 +167,7 @@ section h1, .stars{
     vertical-align: top;
 }
 
-.reviews-right button{
+.reviews-right button, .book-button{
     height: 67px;
     padding: 10px;
     background-color: rgb(145, 247, 145);
@@ -218,4 +218,75 @@ section h1, .stars{
     position: absolute;
     bottom: 15%;
     right: 15%;
+}
+
+/*Overview section started*/
+#overview{
+    margin: 30px;
+
+}
+
+
+/*Box Icons in overview*/
+.icon-fill {
+    height: 75px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: rgb(145, 247, 145);
+    padding: 10px;
+    border: 1px solid rgb(145, 247, 145);;
+    border-radius: 5px;
+    text-align: left;
+    margin-right: 5px;
+  }
+  
+  .icon-box {
+    height: 75px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+    border: 1px solid rgb(145, 247, 145);
+    border-radius: 5px;
+    text-align: left;
+    margin-right: 5px;
+}
+
+  #txt-id{
+    font-weight: bolder;
+    /* Style your text here */
+  }
+  
+  hr{
+    margin: 50px;
+  }
+
+  /*Available rooms section code*/
+  .room-container {
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.rounded-image {
+    border-radius: 10%;
+    margin-right: 10px;
+    float: left;
+}
+
+.room-details {
+    float: left;
+    margin-right: 10px;
+}
+
+.room-price-book{
+    float: right;
+}
+.room-price {
+    margin-right: 1px;
+}
+
+.book-button {
+    float: right;
+    text-align: center;
 }
