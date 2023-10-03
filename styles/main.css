@@ -262,31 +262,50 @@ section h1, .stars{
 
   /*Available rooms section code*/
   .room-container {
-    padding: 15px;
-    margin: 15px;
-    text-align: center;
+    width: 100%;
+    margin-top: 10px ;
+    text-align: left;
     vertical-align: middle;
+    display: inline-block;
 }
 
 .rounded-image {
-    border-radius: 10%;
-    margin-right: 10px;
-    float: left;
+    border-radius: 20%;
+    margin-left: 100px;
+    margin-right: 50px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .room-details {
-    float: left;
-    margin-right: 10px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    margin-right: 15px;
+    padding: 10px;
 }
 
 .room-price-book{
     float: right;
+    margin-left: 50px;
+    padding: 10px;
 }
-.room-price {
-    margin-right: 1px;
+
+.room-price-book span:nth-child(1) {
+    font-size: x-large;
 }
 
 .book-button {
-    float: right;
+    display: inline-block;
     text-align: center;
+    vertical-align: middle;
+    border-radius: 15%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.room-container img, .room-container span{
+    display: inline-block;
+    vertical-align: middle;
 }
