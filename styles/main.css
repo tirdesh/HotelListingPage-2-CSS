@@ -176,38 +176,46 @@ section h1, .stars{
 .image-container ul {
     list-style: none;
     padding: 0;
-    margin: 75px;
-    width: 100%;
+    margin-top: 75px;
+    position: relative;
+    overflow: hidden;
 }
 
-.image-container ul li {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 5px; /* Adjust margin as needed for spacing */
+.column {
+    width: calc(33.33% - 10px); /* 33.33% width for each column with 10px margin-right */
+    margin-right: 10px;
+    float: left;
 }
 
 .large {
-    height: 400px;
+    height: 500px;
+    width: 100%;
 }
 
-.vertical-images img.small {
-    height: 200px;
-    margin-bottom: 5px; /* Adjust margin as needed for spacing */
+.small {
+    height: 240px;
+    width: 100%;
+    margin-bottom: 10px; /* Adjust margin as needed for spacing */
 }
 
-.vertical-images:last-child {
-    margin-right: 0; /* Remove margin for the last vertical-images */
+.column:last-child {
+    margin-right: 0; /* Remove margin for the last column */
 }
 
-.image-with-button {
-    display: inline-block;
-    vertical-align: top;
+
+.image-button-container{
+    position: relative;
+    height: 240px;
+    margin-bottom: 10px;
 }
 
-button {
-    background-color: #007bff;
-    color: #fff;
+
+.image-button-container button {
+    background-color: rgb(145, 247, 145);
     border: none;
     padding: 10px;
     cursor: pointer;
+    position: absolute;
+    bottom: 15%;
+    right: 15%;
 }
