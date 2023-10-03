@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
@@ -74,10 +74,20 @@ header a img {
     border-radius: 50%; /* Make the image round */
 }
 
+/*For navigation*/
+nav{
+    margin-left:110px;
+}
 nav div a{
+    margin: 0px 0px 0px 0px;
     text-decoration: none;
     color:orangered;
 }
+
+section h1{
+    margin-left: 110px;
+}
+
 
 section h1, .stars{
     display: inline;
@@ -92,6 +102,7 @@ section h1, .stars{
     text-decoration: none;
     color: #000;
 }
+
 
 .stars a svg{
     display: inline-block;
@@ -111,6 +122,7 @@ section h1, .stars{
 .stars div{
     color: orangered;
     float: right;
+    margin-right: 110px;
 }
 
 .stars div span:nth-child(1){
@@ -119,6 +131,7 @@ section h1, .stars{
 
 
 #location {
+    margin-left: 90px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -140,19 +153,22 @@ section h1, .stars{
 
 .reviews-left{
     float: left;
+    margin-left: 110px;
+ 
 }
 
 .reviews-right{
     float: right;
     text-align: center;
+    margin-right: 100px;
 }
 
 .reviews-left p {
     margin-right: 5px;
         display: inline-block;
-        background-color: #f0f0f0;
+        background-color: #ffffff;
         padding: 10px;
-        border: 1px solid #ccc;
+        border: 1px solid rgb(145, 247, 145);
         border-radius: 5px;
     vertical-align: bottom;
 }
@@ -160,9 +176,9 @@ section h1, .stars{
 .reviews-right p, 
 .reviews-right button {
     display: inline-block;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     padding: 0px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(145, 247, 145);
     border-radius: 2px;
     vertical-align: top;
 }
@@ -175,7 +191,8 @@ section h1, .stars{
 
 .image-container ul {
     list-style: none;
-    padding: 0;
+    padding-left: 100px;
+    padding-right: 89px;
     margin-top: 75px;
     position: relative;
     overflow: hidden;
@@ -188,6 +205,7 @@ section h1, .stars{
 }
 
 .large {
+    margin-right: 100px;
     height: 500px;
     width: 100%;
 }
@@ -221,11 +239,19 @@ section h1, .stars{
 }
 
 /*Overview section started*/
+
+article h2{
+    padding-left: 110px;
+}
 #overview{
     margin: 30px;
-
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
+.text{
+    padding-bottom: 10px;
+}
 
 /*Box Icons in overview*/
 .icon-fill {
@@ -234,10 +260,11 @@ section h1, .stars{
     vertical-align: middle;
     background-color: rgb(145, 247, 145);
     padding: 10px;
+    margin-left: 110px;
     border: 1px solid rgb(145, 247, 145);;
     border-radius: 5px;
     text-align: left;
-    margin-right: 5px;
+    margin-right: 15px;
   }
   
   .icon-box {
@@ -248,7 +275,7 @@ section h1, .stars{
     border: 1px solid rgb(145, 247, 145);
     border-radius: 5px;
     text-align: left;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
   #txt-id{
@@ -262,9 +289,13 @@ section h1, .stars{
   }
 
   /*Available rooms section code*/
+  section h2{
+    padding-left: 110px;
+  }
   .room-container {
     width: 100%;
     margin-top: 10px ;
+    margin-right: 100px;
     text-align: left;
     vertical-align: middle;
     display: inline-block;
@@ -314,6 +345,7 @@ section h1, .stars{
 /*Location section*/
 
 .location{
+    margin-left:115px;
     vertical-align: middle;
 }
 
@@ -323,11 +355,13 @@ section h1, .stars{
     border-radius: 10%;
     float: right;
     margin-bottom: 10px;
+    margin-left: 50px;
 }
 #map-frame{
     border-radius: 2%;
     margin: 0; /* Remove any margin */
     padding: 0; /* Remove any padding */
+    margin-left: 110px;
     overflow-x: hidden; /* Hide horizontal overflow */
 }
 
@@ -354,6 +388,16 @@ section h1, .stars{
 .amenities li {
     margin-bottom: 10px;
 }
+
+.amenities img{
+    border: nones;
+}
+
+.amenities-column a{
+    text-decoration: none;
+    color:orangered
+}
+
 
 .amenities-column1::after {
     content: "";
@@ -384,6 +428,7 @@ section h1, .stars{
 }
 
 .review-container {
+    margin-left: 110px;
     width: 100%;
     overflow: hidden;
 }
@@ -404,14 +449,21 @@ section h1, .stars{
 }
 
 .reviews-sec article img {
+    margin-left: 110px;
     border-radius: 200%;
 }
 
 .reviews-sec article svg{
     float: right;
-    margin-right: 50px;
+    margin-right: 110px;
 
 }
+
+.reviews-sec article p{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
 
 #arrow_nav button,
 #arrow_nav span{
@@ -499,7 +551,7 @@ vertical-align: middle;
 
 .footer-column {
     flex: 1;
-    padding: 20px;
+    padding: 0px;
 }
 
 .footer-column ul {
