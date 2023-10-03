@@ -490,8 +490,8 @@ vertical-align: middle;
     display: flex;
     align-items: center;
     margin-top: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: rgb(178, 250, 226);
 }
 
@@ -509,6 +509,8 @@ vertical-align: middle;
 }
 
 .subscribe-text h2 {
+    padding-left: 0;
+    float: left;
     font-size: 24px;
     margin-bottom: 10px;
 }
