@@ -1,14 +1,14 @@
 body{
     background-color: rgb(255,255,255);
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+p{
     padding: 0 0 0 0;
     margin: 0 0 0 0;
 }
 
-/* Reset default styles */
-body, p {
-    margin: 0;
-    padding: 0;
-}
 
 /* Header styles */
 header {
@@ -257,6 +257,7 @@ section h1, .stars{
   }
   
   hr{
+    clear: both;
     margin: 50px;
   }
 
@@ -330,3 +331,96 @@ section h1, .stars{
     overflow-x: hidden; /* Hide horizontal overflow */
 }
 
+/* Amenities section */
+.amenities-column {
+    float: right;
+    margin-right: 30%;
+}
+
+.amenities-column1 {
+    float: left;
+    margin-left: 10%;
+}
+
+.amenities {
+    width: 100%;
+}
+
+.amenities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.amenities li {
+    margin-bottom: 10px;
+}
+
+.amenities-column1::after {
+    content: "";
+    display: block;
+}
+
+.amenities li img, .amenities li span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+/*Reviews section*/
+
+.reviews-sec div {
+    display: inline-block;
+    width: 100%; /* Adjust the width as needed */
+    vertical-align: top; /* Align elements to the top */
+}
+
+.reviews-sec h2 {
+    float: left;
+}
+
+.reviews-sec .book-button {
+    float: right;
+}
+
+.review-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.rating {
+    float: left;
+    font-size: 2.5rem;
+}
+
+
+.reviews-sec article img ,
+.reviews-sec article strong,
+.reviews-sec article span,
+.reviews-sec article svg
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.reviews-sec article img {
+    border-radius: 200%;
+}
+
+.reviews-sec article svg{
+    float: right;
+    margin-right: 50px;
+
+}
+
+#arrow_nav button,
+#arrow_nav span{
+    display: inline-block;
+vertical-align: middle;
+}
+
+#arrow_nav{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}

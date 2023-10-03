@@ -283,56 +283,50 @@
         </section>
         <hr>
         <!--Amenities section - Used ul and li for items containing images and text -->
-        <section>
+
+        <section class="amenities">
             <h2>Amenities</h2>
-            <ul>
-                <li>
-                <img src="assets/room1.PNG"  width="30" height="" >&nbsp;&nbsp;Outdoor pool
-                </li>
-                <li>                
-                    <img src="assets/room1.PNG"  width="30" height="" >&nbsp;&nbsp;Fitness center                
-                </li>
-                <li>
-                    <img src="assets/room1.PNG"  width="30" height="" >&nbsp;&nbsp;Indoor pool
-                </li>
-                <li>
-                    <img src="assets/room1.PNG"  width="30" height="" >&nbsp;&nbsp;Bar/Lounge
-                </li>
-                <li>
-                    <img src="assets/room1.PNG"  width="30" height="" >&nbsp;&nbsp;Spa and wellness
-                </li>
-                <li>
-                    <img src="assets/room1.PNG"  width="30" height="" >&nbsp;&nbsp;Free Wi-Fi
-                </li>
-                <li>
-                    <img src="assets/room1.PNG"  width="30" height="" >&nbsp;&nbsp;Restaurent
-                </li>
-                <li>
-                    <img src="assets/room1.PNG"  width="30" height="" >&nbsp;&nbsp;Tea/Coffee machine
-                </li>
-                <li>
-                    <img src="assets/room1.PNG"  width="30" height="" >&nbsp;&nbsp;Room service
-                </li>
-                <li>
-                    <a href="">+24 more</a>
-                </li>   
-            </ul>
+            <div class="amenities-column1">
+                <ul>
+                    <li>
+                        <img src="assets/room1.PNG" width="30" height="">
+                        <span>Outdoor pool</span>
+                    </li>
+                    <li><img src="assets/room1.PNG" width="30" height="">&nbsp;&nbsp;Fitness center</li>
+                    <li><img src="assets/room1.PNG" width="30" height="">&nbsp;&nbsp;Indoor pool</li>
+                    <li><img src="assets/room1.PNG" width="30" height="">&nbsp;&nbsp;Bar/Lounge</li>
+                    <li><img src="assets/room1.PNG" width="30" height="">&nbsp;&nbsp;Spa and wellness</li>
+                </ul>
+            </div>
+            <div class="amenities-column">
+                <ul>
+                    <li><img src="assets/room1.PNG" width="30" height="">&nbsp;&nbsp;Free Wi-Fi</li>
+                    <li><img src="assets/room1.PNG" width="30" height="">&nbsp;&nbsp;Restaurant</li>
+                    <li><img src="assets/room1.PNG" width="30" height="">&nbsp;&nbsp;Tea/Coffee machine</li>
+                    <li><img src="assets/room1.PNG" width="30" height="">&nbsp;&nbsp;Room service</li>
+                    <li><a href="">+24 more</a></li>
+                </ul>
+            </div>
         </section>
+        
         <hr>
         <!--Reviews section, each review is sub grouped as article-->
-        <section> 
-            <h2>Reviews</h2>
+        <section class="reviews-sec"> 
             <div>
-                <button>
-                    <img width="60" height="40" src="assets/State=Default, Change Icon=None, Size=Large, Type=Filled.png" alt="animal">
-                    <br>Give your review
+                <h2>Reviews</h2>
+                <button class="book-button">
+                        Give your review
                 </button>
             </div>
             <br>
-            <h2>4.2</h2>
-            <strong>Very good</strong><br>
-            <span>371 verified reviews</span>
-            <hr>
+            <div class="review-container">
+                <h3 class="rating">4.2</h3>
+                <div class="review-details">
+                    <strong>Very good</strong><br>
+                    <span>371 verified reviews</span>
+                </div>
+            </div>
+<hr>
             <article>
                 <img src="assets/profilePic.jpg"  width="30" height="" >&nbsp;&nbsp;<strong>5.0 Amazing</strong>&nbsp;&nbsp;|&nbsp;&nbsp; Omar siphon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
                 <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg" align="right">
@@ -373,14 +367,16 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, aperiam?</p>
             </article>
             <hr>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <button>
-                <img width="" height="" src="assets/arrow_back.png" alt="animal">
-            </button>
-            <span> 1 of 40 </span>
-            <button>
-                <img width="" height="" src="assets/arrow_forward.png" alt="animal">
-            </button>
+            <div id="arrow_nav">
+                <button>
+                    <img width="" height="" src="assets/arrow_back.png" alt="animal">
+                </button>
+                <span> 1 of 40 </span>
+                <button>
+                    <img width="" height="" src="assets/arrow_forward.png" alt="animal">
+                </button>
+            </div>
+            
         </section>
         <!--Subscribe Newsletter section - used form and input elements to validate email entry-->
         <section>
