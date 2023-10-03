@@ -32,4 +32,4 @@ Add CSS to the Assignment 2 HTML Page.
 ![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/7a974d98-ead7-4348-a716-224399b509b6)
 ![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/4310e952-d6df-44dd-87b2-25fac98e2c58)
 ![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/efe83787-e8af-4dc7-b703-b946f04d688a)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/876b2962-b0c1-4b52-9a07-8647a0f17832)
+![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/d06233c1-282e-47d0-895b-96f50d1617da)
