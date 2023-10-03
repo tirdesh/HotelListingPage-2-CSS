@@ -486,3 +486,29 @@ vertical-align: middle;
 .subscribe-image {
     max-width: 30%;
 }
+
+
+/*footer code*/
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(96, 240, 192); /* Green background color */
+    color: #000; /* Text color */
+    padding: 20px;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+
+.social-media-icons img {
+    margin-right: 0px;
+}
+
