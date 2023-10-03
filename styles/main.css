@@ -154,7 +154,7 @@ section h1, .stars{
         padding: 10px;
         border: 1px solid #ccc;
         border-radius: 5px;
-    
+    vertical-align: bottom;
 }
 
 .reviews-right p, 
@@ -164,11 +164,50 @@ section h1, .stars{
     padding: 0px;
     border: 1px solid #ccc;
     border-radius: 2px;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .reviews-right button{
     height: 67px;
     padding: 10px;
     background-color: rgb(145, 247, 145);
+}
+
+.image-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 75px;
+    width: 100%;
+}
+
+.image-container ul li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px; /* Adjust margin as needed for spacing */
+}
+
+.large {
+    height: 400px;
+}
+
+.vertical-images img.small {
+    height: 200px;
+    margin-bottom: 5px; /* Adjust margin as needed for spacing */
+}
+
+.vertical-images:last-child {
+    margin-right: 0; /* Remove margin for the last vertical-images */
+}
+
+.image-with-button {
+    display: inline-block;
+    vertical-align: top;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
 }
