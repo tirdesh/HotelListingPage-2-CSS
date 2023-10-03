@@ -27,7 +27,7 @@
                     <span>Favourites</span>
                 </a>
                 <span>|&nbsp;&nbsp;</span>
-                <a href="metadata.html"  class="items item3">
+                <a href="metadata.html"  class="items item4">
                     <img src="assets/profilePic.jpg" width="30" height="30">
                     <span>John D.</span>
                 </a>
@@ -78,41 +78,46 @@
                         </g>
                     </svg>
                     <span>5 Star Hotel</span>
-                </a>  
-                <span>$240</span>
-                <span>/night</span>
+                </a>
+                <div>
+                    <span>$240</span>
+                    <span>/night</span>
+                </div>
             </div>
+            <br>
             <!--This div contains address info-->
-            <div>
-                <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M32 22.25C28.2734 22.25 25.25 25.1277 25.25 28.6719C25.25 32.75 29.75 39.2127 31.4023 41.4448C31.4709 41.5391 31.5608 41.6157 31.6647 41.6686C31.7686 41.7215 31.8835 41.749 32 41.749C32.1165 41.749 32.2314 41.7215 32.3353 41.6686C32.4392 41.6157 32.5291 41.5391 32.5977 41.4448C34.25 39.2136 38.75 32.7533 38.75 28.6719C38.75 25.1277 35.7266 22.25 32 22.25Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M32 31.25C33.2426 31.25 34.25 30.2426 34.25 29C34.25 27.7574 33.2426 26.75 32 26.75C30.7574 26.75 29.75 27.7574 29.75 29C29.75 30.2426 30.7574 31.25 32 31.25Z" fill="black"/>
+            <div id="location">
+                <svg width="64px" height="64" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                    <path d="M32 22.25C28.2734 22.25 25.25 25.1277 25.25 28.6719C25.25 32.75 29.75 39.2127 31.4023 41.4448C31.4709 41.5391 31.5608 41.6157 31.6647 41.6686C31.7686 41.7215 31.8835 41.749 32 41.749C32.1165 41.749 32.2314 41.7215 32.3353 41.6686C32.4392 41.6157 32.5291 41.5391 32.5977 41.4448C34.25 39.2136 38.75 32.7533 38.75 28.6719C38.75 25.1277 35.7266 22.25 32 22.25Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M32 31.25C33.2426 31.25 34.25 30.2426 34.25 29C34.25 27.7574 33.2426 26.75 32 26.75C30.7574 26.75 29.75 27.7574 29.75 29C29.75 30.2426 30.7574 31.25 32 31.25Z" fill="black"></path>
                 </svg>
                 <span>Gümüşsuyu, İnönü Cd. No:8, 34437 Beyoğlu/İstanbul, Türkiye</span>
             </div>
             <!--This div contains reviews and options for like, share and book-->
-            <div>
+            <div class="reviews">
+                <div class="reviews-left">
                 <p>5.0</p>
-                <span>Very Good 371 Reviews</span>
-                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                <button>
+                <span><strong>Very Good</strong> 371 Reviews</span>
+                </div>
+                <div class="reviews-right">
+                <p>
                     <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M32 22.25C26.6239 22.25 22.25 26.6239 22.25 32C22.25 37.3761 26.6239 41.75 32 41.75C37.3761 41.75 41.75 37.3761 41.75 32C41.75 26.6239 37.3761 22.25 32 22.25ZM35.5011 34.1009C35.0614 34.6372 34.2636 35.4945 32.4214 36.7452C32.2972 36.8302 32.1501 36.8757 31.9995 36.8757C31.849 36.8757 31.7019 36.8302 31.5777 36.7452C29.7355 35.4945 28.9377 34.6358 28.498 34.1009C27.5605 32.9586 27.1114 31.7853 27.1245 30.515C27.1391 29.0591 28.3067 27.8745 29.7275 27.8745C30.6838 27.8745 31.3681 28.3728 31.7947 28.8312C31.821 28.8591 31.8527 28.8812 31.8878 28.8963C31.9229 28.9115 31.9608 28.9193 31.9991 28.9193C32.0373 28.9193 32.0752 28.9115 32.1103 28.8963C32.1455 28.8812 32.1772 28.8591 32.2034 28.8312C32.6305 28.3728 33.3144 27.8745 34.2706 27.8745C35.6914 27.8745 36.8591 29.0591 36.8736 30.515C36.8877 31.7853 36.4381 32.9586 35.5011 34.1009Z" fill="black"/>
                     </svg>
-                </button>
-                <button>
+                </p>
+                <p>
                     <svg width="54" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M26 34.25C27.2426 34.25 28.25 33.2426 28.25 32C28.25 30.7574 27.2426 29.75 26 29.75C24.7574 29.75 23.75 30.7574 23.75 32C23.75 33.2426 24.7574 34.25 26 34.25Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M38 27.5C39.2426 27.5 40.25 26.4926 40.25 25.25C40.25 24.0074 39.2426 23 38 23C36.7574 23 35.75 24.0074 35.75 25.25C35.75 26.4926 36.7574 27.5 38 27.5Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M38 41C39.2426 41 40.25 39.9926 40.25 38.75C40.25 37.5074 39.2426 36.5 38 36.5C36.7574 36.5 35.75 37.5074 35.75 38.75C35.75 39.9926 36.7574 41 38 41Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M27.9609 33.103L36.0394 37.6471M36.0394 26.353L27.9609 30.8971" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
+                </p>
+                <button>Book Now
                 </button>
-                <button>
-                    <img width="60" height="40" src="assets/State=Default, Change Icon=None, Size=Large, Type=Filled.png" alt="animal">
-                    <br>Book Now
-                </button>
-            </div>    
+                </div>
+            </div>
+            <br>
             <!--Used div and ul to add images-->
             <div>
                 <ul>

@@ -3,42 +3,75 @@ body{
     padding: 0 0 0 0;
     margin: 0 0 0 0;
 }
-header{
+
+/* Reset default styles */
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
     background-color: whitesmoke;
     position: sticky;
-    top:0;
+    top: 0;
     width: 100%;
     font-size: 16px;
     line-height: 1;
-    text-transform: none;
-    align-items: center;
-    display: block;
-    border: 0;
     text-align: center;
+    padding: 10px 0; /* Adjust padding as needed */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow for the sticky effect */
 }
 
-header a{
+/* Style for header links */
+header a {
     text-decoration: none;
     color: #000;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* Add space between the icon and text */
 }
 
-header a svg, header a img{
+/* Style for SVG and images inside header links */
+header a svg,
+header a img {
     display: inline-block;
     vertical-align: middle;
 }
 
-.logo{
+/* Style for the logo */
+.logo {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
     position: relative;
     top: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-weight: bold; /* Make the logo bold, adjust as needed */
 }
 
-.item1{
-    display: inline-block;
-    left: 0;
-    text-align: left;
+.items:hover {
+    border-bottom: 2px solid green; /* Add a green border bottom on hover */
+}
+/* Style for the right-aligned item */
+.items.item3 {
+    display: inline-block; /* Display as inline-block */
+    vertical-align: middle; /* Vertically align */
+    text-align: right; /* Right-align the item */
+    margin-left: auto; /* Push it to the right */
+}
+
+.items.item1 {
+    display: inline-block; /* Display as inline-block */
+    vertical-align: middle; /* Vertically align */
+    text-align: left; /* Left-align the item */
+    margin-right: auto;
+}
+
+/* Round the user profile image */
+.item4 img {
+    border-radius: 50%; /* Make the image round */
 }
 
 nav div a{
@@ -75,13 +108,67 @@ section h1, .stars{
     color:black
 }
 
-.stars a+span{
+.stars div{
     color: orangered;
-    font-size:large;
+    float: right;
 }
 
-.stars span:nth-child(3){
-    display: inline;
-    color: orangered;
-    text-align: right;
+.stars div span:nth-child(1){
+    font-size:xx-large;
+}
+
+
+#location {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#location svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.reviews {
+    text-align: center;
+}
+
+.reviews-left, .reviews-right {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.reviews-left{
+    float: left;
+}
+
+.reviews-right{
+    float: right;
+    text-align: center;
+}
+
+.reviews-left p {
+    margin-right: 5px;
+        display: inline-block;
+        background-color: #f0f0f0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    
+}
+
+.reviews-right p, 
+.reviews-right button {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+.reviews-right button{
+    height: 67px;
+    padding: 10px;
+    background-color: rgb(145, 247, 145);
 }
