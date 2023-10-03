@@ -22,6 +22,7 @@ header {
     line-height: 1;
     text-align: center;
     padding: 10px 0; /* Adjust padding as needed */
+    z-index: 1;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow for the sticky effect */
 }
 
@@ -163,6 +164,7 @@ section h1, .stars{
     float: right;
     text-align: center;
     margin-right: 100px;
+    border-radius: 5px;
 }
 
 .reviews-left p {
@@ -189,6 +191,7 @@ section h1, .stars{
     height: 67px;
     padding: 10px;
     background-color: rgb(145, 247, 145);
+    border-radius: 10%;
 }
 
 .image-container ul {
@@ -238,6 +241,7 @@ section h1, .stars{
     position: absolute;
     bottom: 15%;
     right: 15%;
+    border-radius: 5px;
 }
 
 /*Overview section started*/
@@ -484,15 +488,17 @@ vertical-align: middle;
 /*subscribe*/
 .container-with-border {
     border: 2px solid #ffffff;
-    border-radius: 50px; /* Adjust the border radius as needed */
+    border-radius: 20px; /* Adjust the border radius as needed */
     padding: 20px;
     overflow: hidden;
-    display: flex;
     align-items: center;
     margin-top: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: rgb(178, 250, 226);
+    margin-bottom: -50px;
+    position: relative;
+    z-index: 1;
 }
 
 .subscribe {
@@ -552,7 +558,9 @@ vertical-align: middle;
     flex-wrap: wrap;
     background-color: rgb(96, 240, 192); /* Green background color */
     color: #000; /* Text color */
-    padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
 }
 
 .footer-column {
