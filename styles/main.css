@@ -17,6 +17,8 @@ header {
     top: 0;
     width: 100%;
     font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:800;
     line-height: 1;
     text-align: center;
     padding: 10px 0; /* Adjust padding as needed */
@@ -316,6 +318,7 @@ article h2{
     vertical-align: middle;
     margin-right: 15px;
     padding: 10px;
+    font-weight: 700;
 }
 
 .room-price-book{
@@ -326,6 +329,7 @@ article h2{
 
 .room-price-book span:nth-child(1) {
     font-size: x-large;
+    font-weight: 900;
 }
 
 .book-button {
