@@ -1,7 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/6Eq2rehk)
-# Assignment Description
-Add CSS to the Assignment 2 HTML Page.
-
+# Add CSS to the HotelListing HTML Page.
 1. The goal of this assignment is to learn about CSS Selectors, properties, Combinators, Pseudo-classes, Pseudo-elements, and Box model.
 2. Use CSS class and tag selectors.
 3. JavaScript is not required. This will not add more grade points.
@@ -24,12 +21,12 @@ Add CSS to the Assignment 2 HTML Page.
 3. As this assignment is made mostly by using html no additional packages are required.
 
 # Final Output(How the page looks)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/f16369d5-cab9-4b68-9a40-f96cf8ca623f)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/d278060e-ae90-4f32-b466-1be0b9a7a8f4)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/48cadeca-e3e2-44e9-9414-a86e7cb317b7)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/4995e356-8a71-4d89-a47b-59df0fd5d1ce)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/dbc5d469-d3e2-42ae-916d-6ce6e2e24569)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/7a974d98-ead7-4348-a716-224399b509b6)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/4310e952-d6df-44dd-87b2-25fac98e2c58)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/efe83787-e8af-4dc7-b703-b946f04d688a)
-![image](https://github.com/info-6150-fall-2023/assignment-3-tirdesh-neu/assets/145165383/9fab3329-a601-4c81-817f-74e5d0bce7c3)
+![image](https://github.com/tirdesh/HotelListingPage-2-CSS/assets/71664201/cb908330-4616-4b0b-ae4f-757b7fb8fa57)
+![image](https://github.com/tirdesh/HotelListingPage-2-CSS/assets/71664201/26806b23-2255-4844-8f7d-f930fd119760)
+![image](https://github.com/tirdesh/HotelListingPage-2-CSS/assets/71664201/b6c2ede7-7bc4-41da-a0f4-52264b906bf4)
+![image](https://github.com/tirdesh/HotelListingPage-2-CSS/assets/71664201/44ac0c95-c692-4847-84dd-d2016c841bd5)
+![image](https://github.com/tirdesh/HotelListingPage-2-CSS/assets/71664201/8463bac5-8613-43df-8e54-4295cb0a9b65)
+![image](https://github.com/tirdesh/HotelListingPage-2-CSS/assets/71664201/11c56575-ebd2-4c11-8f2e-68361e38a8a0)
+![image](https://github.com/tirdesh/HotelListingPage-2-CSS/assets/71664201/f97153c5-69aa-40a1-8ef2-d259a316d63b)
+![image](https://github.com/tirdesh/HotelListingPage-2-CSS/assets/71664201/54fed72a-61f3-48b5-8f89-6e1bc70721a3)
+![image](https://github.com/tirdesh/HotelListingPage-2-CSS/assets/71664201/885e01d6-6a6f-4e88-a520-46495a2308e4)
